@@ -34,7 +34,7 @@ export default function PromoBanner() {
           <div className="max-w-[90rem] mx-auto px-4 py-1 md:py-2.5 flex items-center justify-between">
             <p className="text-white font-medium flex-1 text-center text-xs md:text-base">
               <span className="inline-block mr-1.5" style={{ fontSize: mobile ? '14px' : '16px' }}>🎉</span>
-              Launch Week Special! Get lifetime deal for $49 instead of $29 per month
+              Launch Week Special! Get lifetime deal for $69 instead of $39 per month
             </p>
             <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
               {!mobile && (
