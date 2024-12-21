@@ -6,19 +6,18 @@ import AnimatedSection from './AnimatedSection';
 import styles from './Button.module.css';
 
 const lifetimeFeatures = [
-  "Unlimited reddit accounts",
-  "Unlimited AI powered lead scraping",
-  "Unibox feature",
-  "Lead categorization",
-  "Detailed campaign analytics",
-  "Premium live support"
+  "AI-Powered Viral Post Generator",
+  "Exclusive Access to Engagement Pools",
+  "24/7 Smart Comment Automation",
+  "Advanced Keyword Search",
+  "Priority Support"
 ];
 
 const monthlyFeatures = [
-  "Limited reddit accounts",
-  "Basic lead scraping",
-  "Basic analytics",
-  "Email support"
+  "AI-Powered Viral Post Generator",
+  "Exclusive Access to Engagement Pools",
+  "24/7 Smart Comment Automation",
+  "Email Support"
 ];
 
 export default function Pricing() {
@@ -53,7 +52,7 @@ export default function Pricing() {
             <div className="bg-[#1a1a1a]/50 backdrop-blur rounded-2xl p-8 md:p-12 relative overflow-hidden transition-all duration-300 hover:bg-[#1a1a1a]/60">
               <h3 className="text-2xl font-bold mb-2 opacity-75">Monthly access</h3>
               <div className="flex items-center justify-center gap-2 mb-4 opacity-75">
-                <span className="text-5xl font-bold text-gray-400">$29</span>
+                <span className="text-5xl font-bold text-gray-400">$39</span>
                 <span className="text-lg">/month</span>
               </div>
               <p className="text-gray-500 mb-8">Monthly subscription</p>
@@ -88,7 +87,7 @@ export default function Pricing() {
               <h3 className="text-2xl font-bold mb-2">Lifetime access</h3>
               <div className="flex items-center justify-center gap-2 mb-4">
                 <span className="text-gray-400 line-through text-xl">$499</span>
-                <span className="text-5xl font-bold bg-gradient-to-r from-[#ff4500] to-[#ff6b6b] text-transparent bg-clip-text">$49</span>
+                <span className="text-5xl font-bold bg-gradient-to-r from-[#ff4500] to-[#ff6b6b] text-transparent bg-clip-text">$69</span>
               </div>
               <p className="text-gray-400 mb-8">One-time payment. No subscription</p>
 

@@ -7,17 +7,17 @@ import styles from './Button.module.css';
 const features = [
   {
     title: "Craft Viral Posts in Seconds with AI",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    description: "Let AI craft posts that grab attention and spark engagement in just seconds. Trained on 50,000+ viral Reddit posts, it's like having a social media expert at your fingertips—no guesswork needed.",
     align: "right"
   },
   {
     title: "Trend your Post in Minutes via Engagement Pools",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    description: "Boost your visibility with Reddit's first Engagement Pool. More upvotes, more interaction, and better chances of trending—all in just a few minutes.",
     align: "left"
   },
   {
     title: "Generate Sales 24/7 with Smart Comment Automation",
-    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.",
+    description: "Let our AI scan Reddit 24/7 to identify potential leads, engage with them instantly through comments, and convert them - all without you lifting a finger.",
     align: "right"
   }
 ];

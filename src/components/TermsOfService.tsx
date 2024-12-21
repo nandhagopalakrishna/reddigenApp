@@ -1,8 +1,13 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function TermsOfService() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <div className="max-w-3xl mx-auto pt-8">
@@ -84,7 +89,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">10. Contact Us</h2>
             <p className="text-gray-300">
-              If you have any questions about these Terms, please contact us at support@reddigen.com.
+              If you have any questions about these Terms, please contact us at team@reddigen.io.
             </p>
           </section>
         </article>

@@ -19,15 +19,15 @@ const faqData: FAQSection[] = [
     questions: [
       {
         question: "What is Reddigen, and how does it work?",
-        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+        answer: "Reddigen is an AI-powered Reddit growth tool that crafts viral posts, boosts visibility through engagement pools for more upvotes and interactions, and automates lead engagement in comments to drive sales - all without any effort on your part."
       },
       {
         question: "Who should use Reddigen?",
-        answer: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui."
+        answer: "Reddigen is perfect for marketers, business owners, content creators, and entrepreneurs who want to boost visibility, increase sales, or build their brand on Reddit."
       },
       {
         question: "How can Reddigen help me grow my business on Reddit?",
-        answer: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+        answer: "Reddigen helps by generating engaging posts, driving visibility through engagement pools, automating lead interactions, and offering keyword tools to reach your target audience—making it easy to scale your Reddit presence."
       }
     ]
   },
@@ -36,15 +36,15 @@ const faqData: FAQSection[] = [
     questions: [
       {
         question: "How does the AI generate viral posts?",
-        answer: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        answer: "Reddigen’s AI learns from over 50,000 viral Reddit posts to create optimized content that captures attention and drives engagement."
       },
       {
         question: "What are engagement pools and how do they work?",
-        answer: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore."
+        answer: "Engagement pools are groups of Reddit users who boost your post’s visibility by driving upvotes and interactions, helping your content trend faster."
       },
       {
         question: "How does the comment automation system work?",
-        answer: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
+        answer: "Reddigen’s comment automation scans Reddit 24/7, engaging with leads and converting them into customers—all automatically."
       }
     ]
   }

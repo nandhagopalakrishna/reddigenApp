@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Logo and description section */}
           <div className="col-span-1 text-center md:text-left">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-[#ff4500] rounded-full" />
+              <img src="https://i.imghippo.com/files/IEv6086SE.png" alt="Reddigen Logo" className="w-8 h-8" />
               <span className="text-xl font-bold">reddigen</span>
             </div>
             <p className="mt-4 text-gray-400 text-sm md:text-base">

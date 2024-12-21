@@ -1,8 +1,13 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function PrivacyPolicy() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <div className="max-w-3xl mx-auto pt-8">
@@ -102,8 +107,8 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-gray-300 mt-4">
-              Email: privacy@reddigen.com<br />
-              Address: 123 Privacy Street, Tech City, TC 12345
+              Email: team@reddigen.io<br />
+              Address: 625 W Adams St, Chicago, IL 60661Chicago, IL - 60661United States
             </p>
           </section>
         </article>
