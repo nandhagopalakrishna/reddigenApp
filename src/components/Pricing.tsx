@@ -78,7 +78,7 @@ export default function Pricing() {
 
             {/* Lifetime Plan - Main Card */}
             <div className="bg-[#111] rounded-2xl p-8 md:p-12 relative overflow-hidden shadow-2xl border border-[#ff4500]/20">
-              <div className="absolute top-4 right-4">
+              <div className="relative md:absolute md:top-4 md:right-4 mb-4 md:mb-0">
                 <span className="bg-gradient-to-r from-[#ff4500] to-[#ff6b6b] text-white px-4 py-1 rounded-full text-sm font-medium animate-pulse">
                   LIMITED TIME OFFER
                 </span>
@@ -89,7 +89,7 @@ export default function Pricing() {
                 <span className="text-gray-400 line-through text-xl">$499</span>
                 <span className="text-5xl font-bold bg-gradient-to-r from-[#ff4500] to-[#ff6b6b] text-transparent bg-clip-text">$69</span>
               </div>
-              <p className="text-gray-400 mb-8">One-time payment. No subscription</p>
+              <p className="text-gray-400 mb-8 text-sm md:text-base">One-time payment. No subscription</p>
 
             <div className="space-y-4 mb-8">
               {lifetimeFeatures.map((feature, index) => (
@@ -99,12 +99,12 @@ export default function Pricing() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex items-center gap-3"
+                  className="flex items-start md:items-center gap-3"
                 >
                   <div className="w-5 h-5 rounded-full bg-[#ff4500]/20 flex items-center justify-center flex-shrink-0">
                     <Check className="w-3 h-3 text-[#ff4500]" />
                   </div>
-                  <span className="text-gray-300">{feature}</span>
+                  <span className="text-gray-300 text-sm md:text-base leading-tight md:leading-normal">{feature}</span>
                 </motion.div>
               ))}
             </div>
