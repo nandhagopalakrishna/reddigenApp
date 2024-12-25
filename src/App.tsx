@@ -12,6 +12,7 @@ const Footer = lazy(() => import('./components/Footer'));
 const WaitlistPage = lazy(() => import('./components/WaitlistPage'));
 const PrivacyPolicy = lazy(() => import('./components/PrivacyPolicy'));
 const TermsOfService = lazy(() => import('./components/TermsOfService'));
+const RefundPolicy = lazy(() => import('./components/RefundPolicy'));
 
 const LoadingSpinner = () => (
   <div className="min-h-[200px] flex items-center justify-center">
@@ -37,6 +38,11 @@ function App() {
           <Route path="/terms" element={
             <Suspense fallback={<LoadingSpinner />}>
               <TermsOfService />
+            </Suspense>
+          } />
+          <Route path="/refund" element={
+            <Suspense fallback={<LoadingSpinner />}>
+              <RefundPolicy />
             </Suspense>
           } />
           <Route path="/" element={

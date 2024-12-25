@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
             </p>
             <p className="text-gray-300 mt-4">
               Email: team@reddigen.io<br />
-              Address: 625 W Adams St, Chicago, IL 60661Chicago, IL - 60661United States
+              Address: 10/328 KOZHIPPANNAI, GANTHI NAGAR, EDANGANASALAI, SALEM, TAMILNADU - 637502
             </p>
           </section>
         </article>
